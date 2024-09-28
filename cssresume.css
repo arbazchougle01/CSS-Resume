@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+/* <!----------------------------------------------------- Header starts here  ------------------------------------------------------------> */
+
+header {
+  display: flex;
+  background-color: blue;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  padding: 50px;
+  height: 215px;
+}
+#header-data {
+  width: 1190px;
+}
+h1 {
+  font-size: 54px;
+  margin: 0px;
+}
+header img {
+  height: 215px;
+  width: 190px;
+  border: 3px solid white;
+}
+header h2 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+p {
+  display: inline;
+  text-align: left;
+}
+.telephone {
+  margin-right: 50px;
+}
+.Email {
+  margin-right: 50px;
+  margin-top: 10px;
+}
+/* <!----------------------------------------------------- Header ends here  ------------------------------------------------------------> */
+
+
+
+
+/* <!----------------------------------------------------- Work Experience Section starts here  ----------------------------------------------> */
+
+#work-experience-section {
+  height: 300px;
+}
+hr {
+  color: blue;
+  height: 1px;
+  width: 100%;
+  border: 1px solid blue;
+  background: blue;
+}
+
+#work-experience-section h2 {
+  width: 30%;
+  padding-left: 50px;
+  margin-top: 30px;
+  background-color: blue;
+  color: aliceblue;
+}
+.job-title {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 202px;
+  padding-left: 50px;
+}
+#date-from {
+  margin-bottom: 70px;
+  margin-top: 10px;
+}
+
+.work-experience-data {
+  display: flex;
+  padding-top: 30px;
+}
+
+#company-name {
+  margin-bottom: -7px;
+}
+#company-name-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 37px;
+}
+#company-text {
+  margin-top: 6px;
+  display: flex;
+}
+/* <!----------------------------------------------------- Work Experience Section ends here  ----------------------------------------------> */
+
+
+
+
+/* <!----------------------------------------------------- Education Section starts here  ----------------------------------------------> */
+
+#education-section h2 {
+  width: 30%;
+  padding-left: 50px;
+  background-color: blue;
+  color: aliceblue;
+}
+#education-section {
+  height: 320px;
+}
+.education-section-data {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  padding-top: 30px;
+}
+#college {
+  display: flex;
+  height: 250px;
+  width: 230px;
+  flex-direction: column;
+  padding-left: 50px;
+}
+#college-name {
+  margin-left: 55px;
+}
+#degree {
+  display: flex;
+  height: 250px;
+  width: 950px;
+  flex-direction: column;
+}
+
+#college-year {
+  margin-bottom: 50px;
+  display: flex;
+  margin-top: 3px;
+}
+#college-year-3 {
+  margin-left: 133px;
+}
+#degree-data {
+  margin-bottom: 50px;
+  display: flex;
+  margin-top: 3px;
+}
+/* <!----------------------------------------------------- Education Section ends here  ----------------------------------------------> */
+
+
+
+
+/* <!----------------------------------------------------- Communication Section starts here  ----------------------------------------------> */
+
+#communication-section {
+  height: 100px;
+}
+
+#communication-section h2 {
+  width: 30%;
+  padding-left: 50px;
+  background-color: blue;
+  color: aliceblue;
+}
+#communication-section p {
+  padding-left: 50px;
+}
+/* <!----------------------------------------------------- Communication Section ends here  ----------------------------------------------> */
