@@ -3,29 +3,33 @@
   padding: 0px;
   max-width: 100%;
 }
+body{
+  font-family: "Lato", sans-serif;
+
+}
 /* <!----------------------------------------------------- Header starts here  ------------------------------------------------------------> */
 
 header {
   display: flex;
   background-color: blue;
-  font-family: "Times New Roman", Times, serif;
   color: aliceblue;
   padding: 50px;
   height: 215px;
 }
 #header-data {
-  width: 1190px;
+flex: 1;
 }
+
 h1 {
   font-size: 54px;
   margin: 0px;
 }
-header img {
+header >  img {
   height: 215px;
   width: 190px;
   border: 3px solid white;
 }
-header h2 {
+header  >  h2 {
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -52,15 +56,15 @@ p {
 }
 hr {
   color: blue;
-  height: 1px;
+  height: 0px;
   width: 100%;
   border: 1px solid blue;
   background: blue;
 }
 
-#work-experience-section h2 {
-  width: 30%;
-  padding-left: 50px;
+#work-experience-section  > h2 {
+  width: 20%;
+  padding: 10px 5px 10px 50px;
   margin-top: 30px;
   background-color: blue;
   color: aliceblue;
@@ -68,7 +72,7 @@ hr {
 .job-title {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 370px;
   height: 202px;
   padding-left: 50px;
 }
@@ -88,7 +92,7 @@ hr {
 #company-name-2 {
   display: flex;
   flex-direction: column;
-  margin-top: 37px;
+  margin-top: 17px;
 }
 #company-text {
   margin-top: 6px;
@@ -101,9 +105,9 @@ hr {
 
 /* <!----------------------------------------------------- Education Section starts here  ----------------------------------------------> */
 
-#education-section h2 {
-  width: 30%;
-  padding-left: 50px;
+#education-section  > h2 {
+  width: 20%;
+  padding: 10px 5px 10px 50px;
   background-color: blue;
   color: aliceblue;
 }
@@ -123,8 +127,11 @@ hr {
   flex-direction: column;
   padding-left: 50px;
 }
+i{
+  margin-right: 5px;
+}
 #college-name {
-  margin-left: 55px;
+  margin-left: 47px;
 }
 #degree {
   display: flex;
@@ -139,7 +146,7 @@ hr {
   margin-top: 3px;
 }
 #college-year-3 {
-  margin-left: 133px;
+  margin-left: 107px;
 }
 #degree-data {
   margin-bottom: 50px;
@@ -154,16 +161,24 @@ hr {
 /* <!----------------------------------------------------- Communication Section starts here  ----------------------------------------------> */
 
 #communication-section {
-  height: 100px;
+  height: 120px;
 }
 
 #communication-section h2 {
-  width: 30%;
-  padding-left: 50px;
+  width: 20%;
+  padding: 10px 5px 10px 50px;
   background-color: blue;
   color: aliceblue;
 }
+
 #communication-section p {
   padding-left: 50px;
 }
+.communication-text{
+  margin-top: 30px;
+}
+
+
+
+
 /* <!----------------------------------------------------- Communication Section ends here  ----------------------------------------------> */
